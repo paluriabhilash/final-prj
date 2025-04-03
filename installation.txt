@@ -1,0 +1,15 @@
+#download and install python 3.8 
+#use python venv only
+#create virtual env
+python -m venv myenv
+
+#switch to venv
+C:\Users\username\AppData\Local\Programs\Python\Python38\python.exe -m venv mytenv
+myenv\Scripts\activate
+
+#install modules
+pip install -r requirements.txt
+
+#run the code
+
+python app.py
